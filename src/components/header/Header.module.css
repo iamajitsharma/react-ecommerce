@@ -1,0 +1,49 @@
+header {
+}
+
+.topBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--color-gray);
+  padding: 1rem 4rem;
+  color: var(--color-black);
+}
+
+.topLeft,
+.topRight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.6rem;
+  font-size: 1.4rem;
+  font-family: var(--font-quicksand);
+}
+
+.topLeft span {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.8rem;
+  height: 65px;
+  line-height: 65px;
+}
+
+.rightMenu {
+}
+
+.menuItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.6rem;
+  font-size: 2.5rem;
+  list-style: none;
+  color: gray;
+}
